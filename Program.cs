@@ -1,15 +1,20 @@
-﻿//program to find length of an array
-using System;
+﻿using System;
 
-namespace arrays
+namespace sortarray
 {
     class Program
     {
         static void Main(string[] args)
         {
-            string[] cars = { "ford", "mazda", "BMW", "Opel" };
-            int length = cars.Length;
-            Console.WriteLine("length of the array cars is " + length);
+            int[] numb = { 12, 34, 14, 1, 23, 9, 10 };
+            Array.Sort(numb);
+           foreach(int i in numb)
+            {
+
+                Console.WriteLine(i);
+
+            }
+
         }
     }
 }
