@@ -1,4 +1,5 @@
-﻿using System;
+﻿//program to find length of an array
+using System;
 
 namespace arrays
 {
