@@ -1,4 +1,5 @@
-﻿using System;
+//program to sort an integer array
+using System;
 
 namespace sortarray
 {
