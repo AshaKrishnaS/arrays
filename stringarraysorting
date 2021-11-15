@@ -1,0 +1,19 @@
+//program to sort a string array
+using System;
+
+namespace stringarraysort
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string[] cars = { "mazda", "BMW", "Opel", "Volvo" };
+            Array.Sort(cars);
+            foreach(string i in cars)
+            {
+                Console.WriteLine(i);
+
+            }
+        }
+    }
+}
